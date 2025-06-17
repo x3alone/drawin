@@ -1,0 +1,14 @@
+/mnt/c/Users/CLE/Desktop/drawin/geometrical_shapes/target/debug/deps/libpng-9f916cbeebc50eaa.rmeta: /home/cle/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/png-0.5.2/src/lib.rs /home/cle/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/png-0.5.2/src/chunk.rs /home/cle/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/png-0.5.2/src/crc.rs /home/cle/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/png-0.5.2/src/decoder/mod.rs /home/cle/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/png-0.5.2/src/decoder/stream.rs /home/cle/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/png-0.5.2/src/encoder.rs /home/cle/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/png-0.5.2/src/filter.rs /home/cle/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/png-0.5.2/src/traits.rs /home/cle/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/png-0.5.2/src/common.rs /home/cle/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/png-0.5.2/src/utils.rs
+
+/mnt/c/Users/CLE/Desktop/drawin/geometrical_shapes/target/debug/deps/png-9f916cbeebc50eaa.d: /home/cle/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/png-0.5.2/src/lib.rs /home/cle/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/png-0.5.2/src/chunk.rs /home/cle/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/png-0.5.2/src/crc.rs /home/cle/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/png-0.5.2/src/decoder/mod.rs /home/cle/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/png-0.5.2/src/decoder/stream.rs /home/cle/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/png-0.5.2/src/encoder.rs /home/cle/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/png-0.5.2/src/filter.rs /home/cle/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/png-0.5.2/src/traits.rs /home/cle/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/png-0.5.2/src/common.rs /home/cle/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/png-0.5.2/src/utils.rs
+
+/home/cle/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/png-0.5.2/src/lib.rs:
+/home/cle/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/png-0.5.2/src/chunk.rs:
+/home/cle/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/png-0.5.2/src/crc.rs:
+/home/cle/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/png-0.5.2/src/decoder/mod.rs:
+/home/cle/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/png-0.5.2/src/decoder/stream.rs:
+/home/cle/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/png-0.5.2/src/encoder.rs:
+/home/cle/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/png-0.5.2/src/filter.rs:
+/home/cle/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/png-0.5.2/src/traits.rs:
+/home/cle/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/png-0.5.2/src/common.rs:
+/home/cle/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/png-0.5.2/src/utils.rs:

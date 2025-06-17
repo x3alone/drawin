@@ -1,0 +1,1 @@
+/mnt/c/Users/CLE/Desktop/drawin/geometrical_shapes/target/debug/geometrical_shapes: /mnt/c/Users/CLE/Desktop/drawin/geometrical_shapes/src/geometrical_shapes.rs /mnt/c/Users/CLE/Desktop/drawin/geometrical_shapes/src/main.rs

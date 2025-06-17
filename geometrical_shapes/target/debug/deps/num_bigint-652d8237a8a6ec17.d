@@ -1,0 +1,10 @@
+/mnt/c/Users/CLE/Desktop/drawin/geometrical_shapes/target/debug/deps/libnum_bigint-652d8237a8a6ec17.rmeta: /home/cle/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/num-bigint-0.1.45/src/lib.rs /home/cle/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/num-bigint-0.1.45/src/macros.rs /home/cle/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/num-bigint-0.1.45/src/biguint.rs /home/cle/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/num-bigint-0.1.45/src/algorithms.rs /home/cle/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/num-bigint-0.1.45/src/monty.rs /home/cle/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/num-bigint-0.1.45/src/bigint.rs
+
+/mnt/c/Users/CLE/Desktop/drawin/geometrical_shapes/target/debug/deps/num_bigint-652d8237a8a6ec17.d: /home/cle/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/num-bigint-0.1.45/src/lib.rs /home/cle/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/num-bigint-0.1.45/src/macros.rs /home/cle/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/num-bigint-0.1.45/src/biguint.rs /home/cle/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/num-bigint-0.1.45/src/algorithms.rs /home/cle/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/num-bigint-0.1.45/src/monty.rs /home/cle/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/num-bigint-0.1.45/src/bigint.rs
+
+/home/cle/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/num-bigint-0.1.45/src/lib.rs:
+/home/cle/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/num-bigint-0.1.45/src/macros.rs:
+/home/cle/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/num-bigint-0.1.45/src/biguint.rs:
+/home/cle/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/num-bigint-0.1.45/src/algorithms.rs:
+/home/cle/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/num-bigint-0.1.45/src/monty.rs:
+/home/cle/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/num-bigint-0.1.45/src/bigint.rs:
