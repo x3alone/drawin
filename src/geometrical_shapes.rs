@@ -159,3 +159,35 @@ impl Circle {
         Self::new(p, r)
     }
 }
+
+impl Drawable for Circle {
+    fn draw(&self, image: &mut impl Displayable) {
+        let cx = self.center.x;
+        let cy = self.center.y;
+        let r = self.radius;
+
+        let mut x = 0;
+        let mut y = -r;
+        let color = Color::white();
+
+        while x < -y {
+            let y_midpoint = y as f32 + 0.5;
+
+            if x.pow(2) as f32 + y_midpoint.powf(2.0) > r.pow(2) as f32 {
+                y += 1;
+            }
+
+            image.display(cx + x, cy + y, color.clone()); // top right
+            image.display(cx - x, cy + y, color.clone()); // top left
+            image.display(cx - x, cy - y, color.clone()); // bottom left
+            image.display(cx + x, cy - y, color.clone()); // bottom right
+
+            image.display(cx - y, cy - x, color.clone()); // right top
+            image.display(cx - y, cy + x, color.clone()); // right bottom
+            image.display(cx + y, cy - x, color.clone()); // left top
+            image.display(cx + y, cy + x, color.clone()); // letf bottom
+
+            x += 1;
+        }
+    }
+}
