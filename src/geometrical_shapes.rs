@@ -191,3 +191,87 @@ impl Drawable for Circle {
         }
     }
 }
+
+pub struct Cube {
+    point_a: Point,
+    point_b: Point,
+}
+
+impl Cube {
+    pub fn new(a: &Point, b: &Point) -> Self {
+        Self {
+            point_a: *a,
+            point_b: *b,
+        }
+    }
+}
+
+impl Drawable for Cube {
+    fn draw(&self, image: &mut impl Displayable) {
+        let color = self.color();
+        let a = self.point_a;
+        let b = self.point_b;
+
+        let dx = (a.x - b.x) / 2;
+        let dy = -((a.y - b.y) / 2);
+
+        let mut rec_1 = Rectangle::new(&a, &b);
+        let mut rec_2 = Rectangle::new(
+            &Point {
+                x: (a.x + dx),
+                y: (a.y + dy),
+            },
+            &Point {
+                x: (b.x + dx),
+                y: (b.y + dy),
+            },
+        );
+
+        rec_1.color = color.clone();
+        rec_1.draw(image);
+
+        rec_2.color = color.clone();
+        rec_2.draw(image);
+
+        Line::new(rec_1.point_a, rec_2.point_a, color.clone()).draw(image);
+        Line::new(rec_1.point_b, rec_2.point_b, color.clone()).draw(image);
+        Line::new(rec_1.point_c, rec_2.point_c, color.clone()).draw(image);
+        Line::new(rec_1.point_d, rec_2.point_d, color.clone()).draw(image);
+    }
+}
+
+pub struct Pentagon {
+    lines: Vec<Line>,
+}
+
+impl Pentagon {
+    pub fn new(start: &Point, side_length: i32) -> Self {
+        let mut current_point = *start;
+        let mut angle: f32 = 0.;
+        let mut pentagon = Pentagon { lines: vec![] };
+        let color = start.color();
+
+        for _ in 1..=5 {
+            let x_offset = ((side_length as f32) * angle.to_radians().cos()) as i32;
+            let y_offset = ((side_length as f32) * angle.to_radians().sin()) as i32;
+
+            let next_point = Point::new(current_point.x + x_offset, current_point.y + y_offset);
+
+            pentagon
+                .lines
+                .push(Line::new(current_point, next_point, color.clone()));
+            current_point = next_point;
+
+            angle += 72.0;
+        }
+        return pentagon;
+    }
+}
+
+impl Drawable for Pentagon {
+    fn draw(&self, image: &mut impl Displayable) {
+        for line in &self.lines {
+            line.draw(image);
+        }
+    }
+}
