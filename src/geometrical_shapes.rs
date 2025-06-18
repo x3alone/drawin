@@ -168,7 +168,7 @@ impl Drawable for Circle {
 
         let mut x = 0;
         let mut y = -r;
-        let color = Color::white();
+        let color = self.color();
 
         while x < -y {
             let y_midpoint = y as f32 + 0.5;
